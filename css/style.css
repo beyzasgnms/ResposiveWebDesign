@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: Helvetica;
+  font-size: 200%;
+  font-style: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+p {
+  margin: 5px;
+  font-size: 120%;
+}
+
+.row {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.col {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.col-inner {
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #DDDDFF;
+}
+
+.subtitle {
+  border: 2px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2px;
+  width: 30%;
+  font-size: 120%;
+}
+
+/** Large devices **/
+@media (min-width: 992px) {
+  .col {
+    width:33.33%;
+  }
+  .col-center {
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+  }
+}
+
+/** Medium devices **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+    width: 50%;
+  }
+  .col-center {
+    width: 100%;
+  }
+}
+
+/** Small devices **/
+@media (max-width: 767px) {
+  .col .col-center {
+    width: 100%;
+  }
+}
+
+.green-bg {
+  background-color: #00FF00;
+  color: #000000;
+}
+
+.light-blue-bg {
+  background-color: #00FFFF;
+  color: #000000;
+}
+
+.yellow-bg {
+  background-color: #FFFF00;
+  color: #000000;
+}
+
+.orange-bg {
+  background-color: #FFAA00;
+  color: #000000;
+}
+
+.red-bg {
+  background-color: #FF0000;
+  color: #000000;
+}
+
+.black-bg {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.grey-bg {
+  background-color: #B0B0B0;
+  color: #000000;
+}
